@@ -1,0 +1,6 @@
+app: &app_base
+  build: .
+  environment:
+    RUBY_ENV: development
+  volumes:
+    - .:/app

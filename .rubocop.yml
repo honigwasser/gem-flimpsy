@@ -1,0 +1,20 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - "Guardfile"
+    - "Gemfile"
+    - "*.gemspec"
+    - "Rakefile"
+    - "bin/*"
+
+Metrics/LineLength:
+  Max: 140
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
